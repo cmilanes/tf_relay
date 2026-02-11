@@ -1,0 +1,43 @@
+[0.586s] Invoking command in '/home/cmilanes/tf_remapping/tf_relay': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cmilanes/tf_remapping/tf_relay/build/tf_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tf_relay build --build-base /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build install --record /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/install.log --single-version-externally-managed install_data
+[0.791s] running egg_info
+[0.791s] creating build/tf_relay/tf_relay.egg-info
+[0.807s] writing build/tf_relay/tf_relay.egg-info/PKG-INFO
+[0.807s] writing dependency_links to build/tf_relay/tf_relay.egg-info/dependency_links.txt
+[0.807s] writing entry points to build/tf_relay/tf_relay.egg-info/entry_points.txt
+[0.807s] writing requirements to build/tf_relay/tf_relay.egg-info/requires.txt
+[0.807s] writing top-level names to build/tf_relay/tf_relay.egg-info/top_level.txt
+[0.807s] writing manifest file 'build/tf_relay/tf_relay.egg-info/SOURCES.txt'
+[0.840s] reading manifest file 'build/tf_relay/tf_relay.egg-info/SOURCES.txt'
+[0.840s] writing manifest file 'build/tf_relay/tf_relay.egg-info/SOURCES.txt'
+[0.840s] running build
+[0.840s] running build_py
+[0.840s] creating /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build
+[0.840s] creating /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib
+[0.840s] creating /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay
+[0.840s] copying tf_relay/tf_relay.py -> /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay
+[0.840s] copying tf_relay/main.py -> /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay
+[0.841s] copying tf_relay/__init__.py -> /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay
+[0.841s] copying tf_relay/tf_static_relay.py -> /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay
+[0.841s] running install
+[0.845s] running install_lib
+[0.862s] creating /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay
+[0.862s] copying /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay/tf_relay.py -> /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay
+[0.862s] copying /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay/main.py -> /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay
+[0.862s] copying /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay/__init__.py -> /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay
+[0.862s] copying /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build/lib/tf_relay/tf_static_relay.py -> /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay
+[0.862s] byte-compiling /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay/tf_relay.py to tf_relay.cpython-312.pyc
+[0.863s] byte-compiling /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay/main.py to main.cpython-312.pyc
+[0.863s] byte-compiling /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay/__init__.py to __init__.cpython-312.pyc
+[0.863s] byte-compiling /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay/tf_static_relay.py to tf_static_relay.cpython-312.pyc
+[0.863s] running install_data
+[0.863s] creating /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/share/ament_index
+[0.863s] creating /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/share/ament_index/resource_index
+[0.864s] creating /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/share/ament_index/resource_index/packages
+[0.864s] copying resource/tf_relay -> /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/share/ament_index/resource_index/packages
+[0.864s] copying package.xml -> /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/share/tf_relay
+[0.864s] running install_egg_info
+[0.881s] Copying build/tf_relay/tf_relay.egg-info to /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages/tf_relay-0.0.0-py3.12.egg-info
+[0.881s] running install_scripts
+[0.985s] Installing relay script to /home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/tf_relay
+[0.985s] writing list of installed files to '/home/cmilanes/tf_remapping/tf_relay/build/tf_relay/install.log'
+[1.001s] Invoked command in '/home/cmilanes/tf_remapping/tf_relay' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cmilanes/tf_remapping/tf_relay/build/tf_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cmilanes/tf_remapping/tf_relay/install/tf_relay/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tf_relay build --build-base /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/build install --record /home/cmilanes/tf_remapping/tf_relay/build/tf_relay/install.log --single-version-externally-managed install_data

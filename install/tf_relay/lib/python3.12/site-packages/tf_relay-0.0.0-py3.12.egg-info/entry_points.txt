@@ -1,0 +1,2 @@
+[console_scripts]
+relay = tf_relay.main:main
